@@ -71,6 +71,7 @@ body {
 .articles {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .article {
@@ -78,6 +79,11 @@ body {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 600px) {
+    .article {
+        width: 100%;
+    }
+}
 
 .article img {
     width: 100%;
