@@ -8,17 +8,26 @@ body {
     padding: 10px 20px;
 }
 
+#header-top p {
+    font-size: 0.01em;
+}
+
 #header-middle h1 {
     font-size: 2em;
     font-weight: bold;
 }
 
 #header-middle h2 {
-    font-size: 1.5em;
+    font-size: 0.8em;
 }
 
 #header-bottom p {
-    font-size: 1.2em;
+    font-size: 0.7em;
+    margin-bottom: 0;
+}
+
+#header-bottom {
+    padding-bottom: 0.1em;
 }
 
 #main-top {
@@ -31,9 +40,24 @@ body {
     line-height: 1.5;
 }
 
-#main-top .introduction {
+#main-top .introduction-body {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+#main-top .introduction-more p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+#main-top .image-container {
+    max-width: 1000px;
+    margin: auto;
+}
+
+#main-top .image-container img {
+    width: 100%;
+    height: auto;
 }
 
 #main-bottom {
