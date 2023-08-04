@@ -93,8 +93,20 @@ body {
 .article h2 {
     font-size: 1.2em;
     font-weight: bold;
-    margin: 10px 0;
+    margin: 10px 0 0;
     color: #000000;
+}
+
+.article .tags {
+    margin: 5px 0;
+}
+
+.article .tags .tag {
+    display: inline-block;
+    color: #000000;
+    padding: 2px 8px;
+    margin-right: 5px;
+    border-radius: 10px;
 }
 
 .article p {
